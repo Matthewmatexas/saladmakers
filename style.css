@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+}
+a{
+    text-decoration-line: none;
+    color: lightskyblue;
+}
+nav{
+    text-align: center;
+}
+nav img{
+    display: block;
+    width: 120px;
+    margin: 10px auto;
+}
+nav span{
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+nav a{
+    color: #666666;
+}
+main{
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+header{
+    height: 420px;
+    background-image: url(Images/salad_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+    background-color: #05A8AA;
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 68%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.aprasas{
+    width: 90%;
+    margin: 0 auto;
+}
+.aprasas p{
+    color: #333333;
+    font-weight: 100;
+    line-height: 34px;
+    margin: 0 auto;
+    margin-top: 18px;
+    text-align: justify;
+}
+.mygtukas{
+    display: block;
+    width: 200px;
+    padding: 20px;
+    border-radius: 4px;
+    color: #05A8AA;
+    font-weight: 700;
+    margin: 40px auto;
+    border: 2px solid #05A8AA;
+}
+.mygtukas:hover{
+    background-color: #05A8AA;
+    border: 2px solid #05A8AA;
+    color: #FFF;
+}
+ul{
+    padding: 20px;
+}
+li{
+    width: 200px;
+    display: inline-block;
+    background-color: #05A8AA;
+    list-style: none;
+    padding: 10px 20px;
+    margin-bottom: 3px;
+}
+.kategorija{
+    color: #FFF;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: block;
+}
+.reiksme{
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+footer p{
+    height: auto;
+    color: #333333;
+    font-weight: 100;
+    margin: 50px;
+}
